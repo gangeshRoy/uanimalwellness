@@ -1,0 +1,28 @@
+#chart rect {
+    fill: #4aaeea;
+    padding:20px;
+  }
+  
+  #chart text {
+    font: 10px sans-serif;
+    text-anchor: end;
+  }
+  canvas{
+    height:0px;
+  }
+  .axis text {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+  }
+  
+  /* body {
+    background: #1a1a1a;
+    color: #eaeaea;
+    padding: 10px;
+  } */
+ 

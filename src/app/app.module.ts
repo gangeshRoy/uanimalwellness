@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './Header/header.component';
 import {HomeComponent} from "./Home/home.component"
+import {AcceletorChartComponent} from "./Charts/accelerator.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    AcceletorChartComponent
    
   ],
   imports: [

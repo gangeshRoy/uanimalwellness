@@ -1,0 +1,27 @@
+
+      .dashboardContainer {
+        height: auto;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+		background-color: #0ff1f105;
+        padding: 5px;
+      }
+      .dashBoardInformation {
+        height: 100%;
+        width: 100%;
+	    }
+			.dashboardInfomationRow {
+				width: 100%;
+				height: auto;
+				display: flex;
+				margin-bottom: 20px;
+			}
+			.dashboardInfomationColuman {
+			  width: 50%;
+			  height: 100%;
+			  vertical-align: top;
+			  padding: 20px 10px;
+
+			}
+			
