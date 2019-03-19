@@ -8,7 +8,8 @@ declare var Accelerator: any;
 
 @Component({
   selector: 'acceletorchart',
-  template: '<div id="chart" ></div><span id="test"></span>',
+  templateUrl: './accelerator.component.html',
+
   styleUrls: ['./accelerator.component.css'],
   encapsulation: ViewEncapsulation.None
 })
@@ -17,8 +18,8 @@ export class AcceletorChartComponent implements OnInit {
  
     ngOnInit():void {
         let options ={
-            "width":500,
-            "height":200,
+            "width":400,
+            "height":300,
             "color":{
                 "background":"#fff",
                 "bar":"#567",
@@ -28,6 +29,7 @@ export class AcceletorChartComponent implements OnInit {
 };
         
             new Accelerator('chart',options).createChart('Gauge','ScanPerformance');
+            
     }
   
 }

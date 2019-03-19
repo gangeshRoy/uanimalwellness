@@ -1,23 +1,23 @@
 
-      .dashboardContainer {
+      .homeContainerContainer {
         height: auto;
         width: 100%;
         margin: auto;
         overflow: hidden;
-		background-color: #0ff1f105;
+				background-color: #0ff1f105;
         padding: 5px;
       }
-      .dashBoardInformation {
+      .homeContainerInformation {
         height: 100%;
         width: 100%;
 	    }
-			.dashboardInfomationRow {
+			.homeContainerInfomationRow {
 				width: 100%;
 				height: auto;
 				display: flex;
 				margin-bottom: 20px;
 			}
-			.dashboardInfomationColuman {
+			.homeContainerInfomationColuman {
 			  width: 50%;
 			  height: 100%;
 			  vertical-align: top;

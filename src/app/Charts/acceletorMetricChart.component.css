@@ -1,0 +1,117 @@
+/*  */
+.axis path,
+.axis line {
+fill :none;
+shape-rendering: crispEdges;
+}
+
+.metric-card{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #44444417;
+    border-radius: 10px;
+    box-shadow: 3px 3px 11px 1px #44444442;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.metric-value{
+    font-size: x-large;
+    color:#1d80e2;
+    font-weight: bold;
+
+}
+
+.metric-label{
+    color:#6a6a6b70;
+}
+.images {
+    text-align:center;
+  }
+  
+  th.width{
+    width:30%;
+  }
+  
+  .mainContainer {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+/* background-color: #f2f2f2; */
+background-color: #0ff1f105;
+
+    padding: 5px;
+  }
+ 
+  .informationHolder {
+    height: 100%;
+    width: 100%;
+
+  }
+  .row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+    /* border:1px solid red; */
+    /* min-height: 300px; */
+    padding:5px;
+  }
+  .column50 {
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    padding: 20px 10px;
+    /* border:1px solid black; */
+    /* min-height:250px; */
+
+  }
+  .column30 {
+    width: 30%;
+    height: 100%;
+    vertical-align: top;
+    padding: 20px 10px;
+    /* border:1px solid black; */
+    /* min-height:250px; */
+
+  }
+  .column70 {
+    width: 70%;
+    height: 100%;
+    vertical-align: top;
+    padding: 20px 10px;
+    /* border:1px solid black; */
+    /* min-height:250px; */
+
+  }
+
+
+.TFtableCol{
+    width:100%; 
+    border-collapse:collapse; 
+}
+
+/* improve visual readability for IE8 and below */
+.TFtableCol tr{ 
+    background: #ffff;
+    padding:10px 5px 10px 5px;
+}
+/*  Define the background color for all the ODD table columns  */
+.TFtableCol tr:nth-child(odd){ 
+    background: #ffff;
+    padding:10px 5px 10px 5px;
+} 
+/*  Define the background color for all the EVEN table columns  */
+.TFtableCol tr:nth-child(even){
+    background: #e6eaea;
+    padding:10px 5px 10px 5px;
+}
+.TFtableCol td{
+    padding:10px 5px 10px 5px;
+}
+.tabledata{
+    margin-bottom: 0px!important;
+    padding:0px!important;
+    /* border-radius: 3px; */
+}

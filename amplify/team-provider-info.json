@@ -1,0 +1,14 @@
+{
+    "animal": {
+        "awscloudformation": {
+            "AuthRoleName": "uanimalwellness-20190315113714-authRole",
+            "UnauthRoleArn": "arn:aws:iam::891666309719:role/uanimalwellness-20190315113714-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::891666309719:role/uanimalwellness-20190315113714-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "uanimalwellness-20190315113714-deployment",
+            "UnauthRoleName": "uanimalwellness-20190315113714-unauthRole",
+            "StackName": "uanimalwellness-20190315113714",
+            "StackId": "arn:aws:cloudformation:ap-south-1:891666309719:stack/uanimalwellness-20190315113714/94a24410-46e8-11e9-8e9a-02bc7d16c3bc"
+        }
+    }
+}
