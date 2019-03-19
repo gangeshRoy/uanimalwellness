@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './Header/header.component';
 import {HomeComponent} from "./Home/home.component"
 import {AcceletorChartComponent} from "./Charts/accelerator.component";
-import {MetricCharChartComponent} from "./Charts/acceletorMetricChart.component"
+import {MetricChartComponent} from "./Charts/acceletorMetricChart.component"
 // import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
 
 @NgModule({
@@ -16,7 +16,7 @@ import {MetricCharChartComponent} from "./Charts/acceletorMetricChart.component"
     HeaderComponent,
     HomeComponent,
     AcceletorChartComponent,
-    MetricCharChartComponent
+    MetricChartComponent
     // AmplifyAngularModule
    
   ],
